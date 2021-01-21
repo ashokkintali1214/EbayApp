@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Already a customer? Sign in CTA on launch page ]]>
+    </line>
+    <line>
+      <![CDATA[Entered Mobile number:6281185775 in Mobile number or email field.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Continue CTA]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password :Vivo@2020 in Password field.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login CTA]]>
+    </line>
+    <line>
+      <![CDATA[Home page is launched successfully ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45400" started-at="2021-01-21T07:36:14Z" finished-at="2021-01-21T07:36:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45400" started-at="2021-01-21T07:36:14Z" finished-at="2021-01-21T07:36:59Z">
+      <class name="ebay.AppiumFramework.AmazonAppTest">
+        <test-method status="FAIL" signature="testAmazonAPK()[pri:0, instance:ebay.AppiumFramework.AmazonAppTest@7fac631b]" name="testAmazonAPK" duration-ms="45372" started-at="2021-01-21T07:36:14Z" finished-at="2021-01-21T07:36:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to Perform search on home page The element 'By.id: com.amazon.mShop.android.shopping:id/rs_search_src_text' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EG0CCSC', ip: '192.168.43.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TestAmazonApp\AppiumFram..., appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {app: D:\TestAmazonApp\AppiumFram..., appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 14, platformName: android}, deviceApiLevel: 29, deviceManufacturer: LGE, deviceModel: LM-V405, deviceName: LMV405EBWa925aa79, deviceScreenDensity: 560, deviceScreenSize: 1440x3120, deviceUDID: LMV405EBWa925aa79, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 90, takesScreenshot: true, viewportRect: {height: 2772, left: 0, top: 90, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 6f6924ae-a330-4908-bfe4-8310c2fcde69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to Perform search on home page The element 'By.id: com.amazon.mShop.android.shopping:id/rs_search_src_text' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EG0CCSC', ip: '192.168.43.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TestAmazonApp\AppiumFram..., appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, databaseEnabled: false, desired: {app: D:\TestAmazonApp\AppiumFram..., appActivity: com.amazon.mShop.home.HomeA..., appPackage: com.amazon.mShop.android.sh..., automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 14, platformName: android}, deviceApiLevel: 29, deviceManufacturer: LGE, deviceModel: LM-V405, deviceName: LMV405EBWa925aa79, deviceScreenDensity: 560, deviceScreenSize: 1440x3120, deviceUDID: LMV405EBWa925aa79, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 14, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 90, takesScreenshot: true, viewportRect: {height: 2772, left: 0, top: 90, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 6f6924ae-a330-4908-bfe4-8310c2fcde69
+at org.testng.Assert.fail(Assert.java:96)
+at pageObjects.HomePage.performSearch(HomePage.java:62)
+at ebay.AppiumFramework.AmazonAppTest.testAmazonAPK(AmazonAppTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Already a customer? Sign in CTA on launch page ]]>
+            </line>
+            <line>
+              <![CDATA[Entered Mobile number:6281185775 in Mobile number or email field.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Continue CTA]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password :Vivo@2020 in Password field.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login CTA]]>
+            </line>
+            <line>
+              <![CDATA[Home page is launched successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAmazonAPK -->
+      </class> <!-- ebay.AppiumFramework.AmazonAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
