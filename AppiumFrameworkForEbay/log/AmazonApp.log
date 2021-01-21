@@ -1,0 +1,25 @@
+2021-01-21 13:58:31,055  INFO [main] Log:24 - ******************started*************
+2021-01-21 13:58:43,598  INFO [main] Log:24 - Clicked on Already a customer? Sign in CTA on launch page 
+2021-01-21 13:58:48,731  INFO [main] Log:24 - Entered Mobile number:6281185775 in Mobile number or email field.
+2021-01-21 13:58:49,507  INFO [main] Log:24 - Clicked on Continue CTA
+2021-01-21 13:58:53,328  INFO [main] Log:24 - Entered Password :Vivo@2020 in Password field.
+2021-01-21 13:58:54,350  INFO [main] Log:24 - Clicked on login CTA
+2021-01-21 13:58:56,399  INFO [main] Log:24 - Home page is launched successfully 
+2021-01-21 13:58:59,400  INFO [main] Log:24 - Entered Search text:65-inch-Tv in search filed.
+2021-01-21 13:59:03,403  INFO [main] Log:24 - Clicked search results dropdown.
+2021-01-21 13:59:04,453  INFO [main] Log:24 - Search resutls page is launched successfully
+2021-01-21 13:59:10,460  INFO [main] Log:24 - Got Device name in search result page
+2021-01-21 13:59:12,453  INFO [main] Log:24 - Got Device price in search result page
+2021-01-21 13:59:20,453  INFO [main] Log:24 - Clicked on product in search result page
+2021-01-21 14:01:04,492  INFO [main] Log:24 - Product Detail page is loaded
+2021-01-21 14:01:06,453  INFO [main] Log:24 - Got Device name in Product detail page
+2021-01-21 14:01:08,293  INFO [main] Log:24 - Got Device price in Product detail page
+2021-01-21 14:01:54,224  INFO [main] Log:24 - Clicked on Add to Cart CTA
+2021-01-21 14:03:30,538  INFO [main] Log:24 - Cart page is loaded
+2021-01-21 14:03:35,339  INFO [main] Log:24 - Got Device name in cart page
+2021-01-21 14:03:40,539  INFO [main] Log:24 - Got Device price in Cart page
+2021-01-21 14:03:54,540  INFO [main] Log:24 - Device names are same in Search results page and Product detail page
+2021-01-21 14:03:54,540  INFO [main] Log:24 - Device Prices are same in Search results page and Product detail page
+2021-01-21 14:03:54,540  INFO [main] Log:24 - Device names are same in Product detail page and Cart Page
+2021-01-21 14:03:54,540  INFO [main] Log:24 - Device Prices are same in Product detail page and Cart Page
+2021-01-21 14:03:54,541  INFO [main] Log:24 - ******************stopped*************
